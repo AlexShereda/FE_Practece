@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Happy Monkey', cursive;
+}
+
+.container {
+    background: conic-gradient(from -1.64deg at 52.89% 52.66%, #9FE6EA -34.2deg, #A5E3E7 85.25deg, #F0DAC2 153.64deg, #F7E3CD 280.49deg, #9FE6EA 325.8deg, #A5E3E7 445.25deg);
+    width: 2304px;
+}
+
+.contact {
+    padding: 303px 412px 333px 380px;
+    display: flex;
+    width: 1512px;
+}
+
+.contact-left {
+    background-color: #fff;
+    width: 851px;
+    border-radius: 20px 0 0 20px;
+}
+.contact-form{
+    width: 861px;
+}
+
+.contact-right {
+    background-color: #5FC3CA;
+    width: 661px;
+    padding: 369px 93px 138px;
+    border-radius: 0 20px 20px 0;
+}
+
+.contact-header {
+    margin-top: 97px;
+    margin-left: 75px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 25px;
+
+}
+
+.contact-text {
+    margin-left: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 47px;
+    margin-right: 198px;
+}
+.contact-text a {
+    color: #5FC3CA;
+}
+
+.wrapper {
+    margin-left: 75px;
+}
+
+.imput-text,
+.imput-email,
+.messege {
+    background-color: #F4F4F4;
+    outline: none;
+    border: none;
+    padding: 14px;
+    width: 427px;
+    border-radius: 5px 5px 0 0;
+}
+
+.label-text {
+    color: #5FC3CA;
+    margin-bottom: 6px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.imput-text {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #5FC3CA;
+}
+
+.imput-email {
+    margin-bottom: 40px;
+}
+
+.imput-email,
+.messege {
+    border-bottom: 2px solid #C0C0C0;
+}
+
+.messege {
+    height: 217px;
+    resize: none;
+    margin-bottom: 109px;
+}
+
+.submit-btm {
+    background: #5FC3CA;
+    border-radius: 10px;
+    padding: 12px 80px;
+    color: #fff;
+    border: none;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 231px;
+    margin-left: 310px;
+    margin-bottom: 105px;
+}
